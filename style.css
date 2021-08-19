@@ -1,0 +1,25 @@
+body{
+    background-image: url("funny.gif");
+    background-size: cover;
+    background-position: center;
+    font-family: cursive;
+}
+h1{
+    font-size: 23px !important;
+}
+button{
+    font-size: 20px !important;
+}
+.btn-primary:hover{
+    background-color: green;
+}
+.btn-danger:hover{
+    background-color: skyblue;
+}
+canvas{
+    animation-name: tamenamehame;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:100px;
+}
+@keyframes tamenamehame{from{ box-shadow:1px 1px 39px palegoldenrod;}to{box-shadow: 1px 1px 39px navy}}
